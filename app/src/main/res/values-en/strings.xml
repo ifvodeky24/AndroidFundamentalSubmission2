@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MovieCatalogueSub2</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="judul_movie">Movie Title</string>
+    <string name="tanggal_rilis_movie">Release Date</string>
+    <string name="deskripsi_movie">Description</string>
+    <string name="judul_tvshow">Tvshow Title</string>
+    <string name="tanggal_rilis_tvshow">Release Date</string>
+    <string name="deskripsi_tvshow">Description</string>
+    <string name="change_language_settings">Change Language Settings</string>
+    <string name="judul_movie_teks">Movie Title</string>
+    <string name="tanggal_rilis_teks">Release Date</string>
+    <string name="deskripsi_teks">Description</string>
+    <string name="judul_tv_show_teks">Tvshow Title</string>
+
+
+
+    //Bagian data Movie
+    <string-array name="data_judul_movie">
+        <item>Alita: Battle Angel</item>
+        <item>Aquaman</item>
+        <item>A Star is Born</item>
+        <item>Bohemian Rhapsody</item>
+        <item>Cold Pursuit</item>
+        <item>Avengers Infinity War</item>
+        <item>Birdboy</item>
+        <item>Bumblebee</item>
+        <item>Creed</item>
+    </string-array>
+
+    <string-array name="data_deskripsi_movie">
+        <item>When Alita awakens with no memory of who she is in a future world she does not recognize, she is taken in by Ido, a compassionate doctor who realizes that somewhere in this abandoned cyborg shell is the heart and soul of a young woman with an extraordinary past.</item>
+        <item>Once home to the most advanced civilization on Earth, Atlantis is now an underwater kingdom ruled by the power-hungry King Orm. With a vast army at his disposal, Orm plans to conquer the remaining oceanic people and then the surface world. Standing in his way is Arthur Curry, Orm half-human, half-Atlantean brother and true heir to the throne.</item>
+        <item>Seasoned musician Jackson Maine discovers — and falls in love with — struggling artist Ally. She has just about given up on her dream to make it big as a singer — until Jack coaxes her into the spotlight. But even as career of Ally takes off, the personal side of their relationship is breaking down, as Jack fights an ongoing battle with his own internal demons.</item>
+        <item>Singer Freddie Mercury, guitarist Brian May, drummer Roger Taylor and bass guitarist John Deacon take the music world by storm when they form the rock n roll band Queen in 1970. Hit songs become instant classics. When Mercury increasingly wild lifestyle starts to spiral out of control, Queen soon faces its greatest challenge yet – finding a way to keep the band together amid the success and excess.</item>
+        <item>The quiet family life of Nels Coxman, a snowplow driver, is upended after his son murder. Nels begins a vengeful hunt for Viking, the drug lord he holds responsible for the killing, eliminating Viking associates one by one. As Nels draws closer to Viking, his actions bring even more unexpected and violent consequences, as he proves that revenge is all in the execution.</item>
+        <item>As the Avengers and their allies have continued to protect the world from threats too large for any one hero to handle, a new danger has emerged from the cosmic shadows: Thanos. A despot of intergalactic infamy, his goal is to collect all six Infinity Stones, artifacts of unimaginable power, and use them to inflict his twisted will on all of reality. Everything the Avengers have fought for has led up to this moment - the fate of Earth and existence itself has never been more uncertain.</item>
+        <item>A terrible industrial accident changes little Dinki life forever. Now Dinki fate may ride on the wings of her eccentric friend Birdboy, a misfit who hides in the forest lost in his fantasies.</item>
+        <item>On the run in the year 1987, Bumblebee finds refuge in a junkyard in a small Californian beach town. Charlie, on the cusp of turning 18 and trying to find her place in the world, discovers Bumblebee, battle-scarred and broken. When Charlie revives him, she quickly learns this is no ordinary yellow VW bug.</item>
+        <item>The former World Heavyweight Champion Rocky Balboa serves as a trainer and mentor to Adonis Johnson, the son of his late friend and former rival Apollo Creed.</item>
+    </string-array>
+
+    <string-array name="data_tanggal_rilis_movie">
+        <item>January 31, 2019</item>
+        <item>December 21, 2018</item>
+        <item>October 19, 2018</item>
+        <item>October 27, 2018</item>
+        <item>February 7, 2019</item>
+        <item>April 25, 2018</item>
+        <item>November 12, 2018</item>
+        <item>December 19, 2018 </item>
+        <item>November 28, 2018</item>
+    </string-array>
+
+    <array name="data_poster_movie">
+        <item>@drawable/poster_alita</item>
+        <item>@drawable/poster_aquaman</item>
+        <item>@drawable/poster_a_star</item>
+        <item>@drawable/poster_bohemian</item>
+        <item>@drawable/poster_cold_persuit</item>
+        <item>@drawable/poster_avengerinfinity</item>
+        <item>@drawable/poster_birdbox</item>
+        <item>@drawable/poster_bumblebee</item>
+        <item>@drawable/poster_creed</item>
+    </array>
+
+
+    //Bagian data TvShow
+    <string-array name="data_judul_tvshow">
+        <item>Arrow</item>
+        <item>Doom Patrol</item>
+        <item>Dragon Ball</item>
+        <item>Fairy Tail</item>
+        <item>Family Guy</item>
+        <item>Flash</item>
+        <item>God</item>
+        <item>Gotham</item>
+        <item>Grey Anatomy</item>
+        <item>Hanna</item>
+        <item>Iron Fist</item>
+        <item>Naruto Shippuden</item>
+        <item>NCIS</item>
+        <item>Riverdale</item>
+        <item>Shameless</item>
+        <item>Supergirl</item>
+    </string-array>
+
+    <string-array name="data_deskripsi_tvshow">
+        <item>The spoiled Playboy billionaire Oliver Queen lost and disappeared when his cruise ship disappeared at sea. He returned five years later to change men, determined to clean the city as the main judge himself armed with a bow.</item>
+        <item>The adventures of an idealist crazy scientist and his field team from very strong exiles.</item>
+        <item>Dragon Ball tells the story of a young warrior by the name of Son Goku, a boy with a tail who starts an effort to become stronger and learn from the Dragon Ball, when, after the seven people gather, give any hope to the choice.</item>
+        <item>Lucy, the prospective Heavenly Witch, becomes a friend and powerful ally of Natsu, Gray, and Erza, who are part of the famous witch guild, Fairy Tail.</item>
+        <item>In the strange city of Rhode Island, a dysfunctional family tries hard to face daily life when they are thrown from one crazy scenario to another.</item>
+        <item>After being struck by lightning, Barry Allen wakes up from his coma to find that he is given super speed power, becoming Flash, fighting crime in Central City</item>
+        <item>Nine noble families fought to master the land of mythical Westeros, while ancient enemies returned after thousands of years of inactivity.</item>
+        <item>The story behind Detective James Gordon revival became famous in Gotham City in the years before Batman arrival.</item>
+        <item>Drama centered on the personal and professional lives of five surgical apprentices and their supervisors.</item>
+        <item>In the same section, high-concept thriller and adult drama, HANNA follows the journey of an extraordinary young girl who grew up in the forest, when she avoided the endless pursuit of CIA agents who had no books and tried to explore the truth behind who she was is.</item>
+        <item>A young man was awarded extraordinary martial arts skills and mystical powers known as Iron Fist.</item>
+        <item>Naruto Uzumaki, is a hard, hyperactive ninja, a teenager who constantly seeks approval and recognition, and becomes Hokage, who is recognized as the leader and the strongest of all ninjas in the village.</item>
+        <item>Cases from the Washington, D.C. Navy Criminal Case Investigation Team The Main Case Response Team, led by Leroy Special Agent Jethro Gibbs.</item>
+        <item>While navigating romantic waters, schools and troubled families, Archie and his gang are entangled in the dark mystery of Riverdale.</item>
+        <item>A fierce Chicago family who is very loyal makes no apologies.</item>
+        <item>Adventure of cousin Superman in his own super hero career.</item>
+    </string-array>
+
+    <string-array name="data_tanggal_rilis_tvshow">
+        <item>October 19, 2018</item>
+        <item>December 21, 2018</item>
+        <item>April 25, 2018</item>
+        <item>November 12, 2018</item>
+        <item>October 27, 2018</item>
+        <item>December 19, 2018 </item>
+        <item>November 28, 2018</item>
+        <item>February 10, 2016</item>
+        <item>January 9, 2019</item>
+        <item>February 16, 2019</item>
+        <item>January 16, 2019</item>
+        <item>October 24, 2018</item>
+        <item>December 22, 2018</item>
+        <item>December 13, 2018</item>
+        <item>January 17, 2019</item>
+        <item>November 20, 2018</item>
+    </string-array>
+
+    <array name="data_poster_tvshow">
+        <item>@drawable/poster_arrow</item>
+        <item>@drawable/poster_doom_patrol</item>
+        <item>@drawable/poster_dragonball</item>
+        <item>@drawable/poster_fairytail</item>
+        <item>@drawable/poster_family_guy</item>
+        <item>@drawable/poster_flash</item>
+        <item>@drawable/poster_god</item>
+        <item>@drawable/poster_gotham</item>
+        <item>@drawable/poster_grey_anatomy</item>
+        <item>@drawable/poster_hanna</item>
+        <item>@drawable/poster_iron_fist</item>
+        <item>@drawable/poster_naruto_shipudden</item>
+        <item>@drawable/poster_ncis</item>
+        <item>@drawable/poster_riverdale</item>
+        <item>@drawable/poster_shameless</item>
+        <item>@drawable/poster_supergirl</item>
+        <item>@drawable/poster_supernatural</item>
+        <item>@drawable/poster_the_simpson</item>
+        <item>@drawable/poster_the_umbrella</item>
+        <item>@drawable/poster_the_walking_dead</item>
+    </array>
+</resources>

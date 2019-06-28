@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".activity.DetailTvshowActivity">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/iv_poster_tvshow"
+            android:layout_width="0dp"
+            android:layout_height="350dp"
+            android:scaleType="fitXY"
+            android:contentDescription="@string/deskripsi_tvshow"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/poster_naruto_shipudden" />
+
+        <TextView
+            android:id="@+id/tv_judul_tvshow_teks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="28dp"
+            android:layout_marginEnd="8dp"
+            android:text="@string/judul_tv_show_teks"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.028"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/iv_poster_tvshow" />
+
+        <TextView
+            android:id="@+id/tv_judul_tvshow"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="28dp"
+            android:text="@string/judul_tvshow"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp"
+            app:layout_constraintStart_toEndOf="@+id/tv_judul_tvshow_teks"
+            app:layout_constraintTop_toBottomOf="@+id/iv_poster_tvshow" />
+
+        <TextView
+            android:id="@+id/tv_tanggal_rilis_tvshow_teks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="28dp"
+            android:text="@string/tanggal_rilis_teks"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_judul_tvshow_teks" />
+
+        <TextView
+            android:id="@+id/tv_tanggal_rilis_tvshow"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="28dp"
+            android:text="@string/tanggal_rilis_tvshow"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp"
+            app:layout_constraintStart_toEndOf="@+id/tv_tanggal_rilis_tvshow_teks"
+            app:layout_constraintTop_toBottomOf="@+id/tv_judul_tvshow" />
+
+        <TextView
+            android:id="@+id/tv_deskripsi_tvshow_teks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="32dp"
+            android:text="@string/deskripsi_teks"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_tanggal_rilis_tvshow_teks" />
+
+        <TextView
+            android:id="@+id/tv_deskripsi_tvshow"
+            android:layout_width="190dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="64dp"
+            android:layout_marginTop="32dp"
+            android:text="@string/deskripsi_tvshow"
+            android:textColor="@color/colorWhite"
+            android:textSize="16sp"
+            app:layout_constraintStart_toEndOf="@+id/tv_deskripsi_tvshow_teks"
+            app:layout_constraintTop_toBottomOf="@+id/tv_tanggal_rilis_tvshow" />
+
+    </android.support.constraint.ConstraintLayout>
+
+</ScrollView>
+

@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">MovieCatalogueSub2</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="judul_movie">Judul Movie</string>
+    <string name="tanggal_rilis_movie">Tanggal Rilis</string>
+    <string name="deskripsi_movie">Deskripsi</string>
+    <string name="judul_tvshow">Judul Tvshow</string>
+    <string name="tanggal_rilis_tvshow">Tanggal Rilis</string>
+    <string name="deskripsi_tvshow">Deskripsi</string>
+    <string name="change_language_settings">Ubah Pengaturan Bahasa</string>
+    <string name="judul_movie_teks">Judul Movie</string>
+    <string name="tanggal_rilis_teks">Tanggal Rilis</string>
+    <string name="deskripsi_teks">Deskripsi</string>
+    <string name="judul_tv_show_teks">Judul Tvshow</string>
+
+    //Bagian data Movie
+    <string-array name="data_judul_movie">
+        <item>Alita: Battle Angel</item>
+        <item>Aquaman</item>
+        <item>A Star is Born</item>
+        <item>Bohemian Rhapsody</item>
+        <item>Cold Pursuit</item>
+        <item>Avengers Infinity War</item>
+        <item>Birdboy</item>
+        <item>Bumblebee</item>
+        <item>Creed</item>
+    </string-array>
+
+    <string-array name="data_deskripsi_movie">
+        <item>Ketika Alita terbangun tanpa ingatan tentang siapa dia di dunia masa depan yang tidak dia kenal, dia ditangkap oleh Ido, seorang dokter yang penuh kasih yang menyadari bahwa di suatu tempat dalam cangkang cyborg yang ditinggalkan ini adalah hati dan jiwa seorang wanita muda dengan luar biasa.</item>
+        <item>Dulunya merupakan rumah bagi peradaban paling maju di Bumi, Atlantis sekarang merupakan kerajaan bawah laut yang diperintah oleh Raja Orm yang haus kekuasaan. Dengan pasukan yang sangat besar, Orm berencana untuk menaklukkan orang-orang samudera yang tersisa dan kemudian ke permukaan dunia. Yang menghalangi jalannya adalah Arthur Curry, saudara tiri manusia setengah manusia Orm dan pewaris sejati takhta.</item>
+        <item>Musisi kawakan Jackson Maine menemukan - dan jatuh cinta dengan - artis yang sedang berjuang Ally. Dia baru saja menyerah pada mimpinya untuk menjadi besar sebagai penyanyi - sampai Jack membujuknya menjadi sorotan. Tetapi bahkan ketika karier Ally lepas landas, sisi pribadi dari hubungan mereka hancur, ketika Jack berjuang terus-menerus dengan setan-setan internalnya sendiri.</item>
+        <item>Penyanyi Freddie Mercury, gitaris Brian May, drummer Roger Taylor dan gitaris bass John Deacon mengambil dunia musik dengan badai ketika mereka membentuk band rock n roll Queen pada tahun 1970. Lagu-lagu hit menjadi klasik instan. Ketika gaya hidup Mercury yang semakin liar mulai lepas kendali, Queen segera menghadapi tantangan terbesarnya menemukan cara untuk menjaga band bersama di tengah kesuksesan dan kelebihan.</item>
+        <item>Kehidupan keluarga yang tenang di Nels Coxman, seorang sopir bajak salju, menjadi kacau setelah pembunuhan putranya. Nels memulai perburuan dendam untuk Viking, raja obat bius yang dianggapnya bertanggung jawab atas pembunuhan itu, menghilangkan rekan Viking satu per satu. Ketika Nels semakin dekat dengan Viking, tindakannya membawa konsekuensi yang lebih tak terduga dan keras, karena ia membuktikan bahwa balas dendam adalah semua dalam eksekusi.</item>
+        <item>Ketika Avengers dan sekutu mereka terus melindungi dunia dari ancaman yang terlalu besar untuk ditangani oleh satu pahlawan, bahaya baru telah muncul dari bayang-bayang kosmik: Thanos. Seorang lalim penghinaan intergalaksi, tujuannya adalah untuk mengumpulkan semua enam Batu Infinity, artefak kekuatan tak terbayangkan, dan menggunakannya untuk menimbulkan keinginannya yang terpelintir pada semua kenyataan. Segala yang Avengers telah perjuangkan telah mengarah ke saat ini - nasib Bumi dan keberadaannya sendiri tidak pernah lebih pasti.</item>
+        <item>Kecelakaan industri yang mengerikan mengubah hidup Dinki kecil selamanya. Sekarang nasib Dinki mungkin naik pada sayap teman nyentriknya Birdboy, seorang yang tidak pantas yang bersembunyi di hutan yang hilang dalam fantasinya.</item>
+        <item>Dalam pelarian pada tahun 1987, Bumblebee menemukan tempat perlindungan di tempat barang rongsokan di kota pantai kecil California. Charlie, di puncak usia 18 dan berusaha menemukan tempatnya di dunia, menemukan Bumblebee, bekas luka pertempuran dan patah. Ketika Charlie menghidupkannya, dia dengan cepat mengetahui bahwa ini bukan bug VW kuning biasa.</item>
+        <item>Mantan Juara Dunia Kelas Berat Rocky Balboa melayani sebagai pelatih dan mentor bagi Adonis Johnson, putra almarhum teman dan mantan saingannya Apollo Creed.</item>
+    </string-array>
+
+    <string-array name="data_tanggal_rilis_movie">
+        <item>31 Januari 2019</item>
+        <item>21 Desember 2018</item>
+        <item>19 Oktober 2018</item>
+        <item>27 Oktober 2018</item>
+        <item>7 Februari 2019</item>
+        <item>25 April 2018</item>
+        <item>12 November 2018</item>
+        <item>19 Desember 2018 </item>
+        <item>28 November 2018</item>
+    </string-array>
+
+    <array name="data_poster_movie">
+        <item>@drawable/poster_alita</item>
+        <item>@drawable/poster_aquaman</item>
+        <item>@drawable/poster_a_star</item>
+        <item>@drawable/poster_bohemian</item>
+        <item>@drawable/poster_cold_persuit</item>
+        <item>@drawable/poster_avengerinfinity</item>
+        <item>@drawable/poster_birdbox</item>
+        <item>@drawable/poster_bumblebee</item>
+        <item>@drawable/poster_creed</item>
+    </array>
+
+    //Bagian data TvShow
+    <string-array name="data_judul_tvshow">
+        <item>Arrow</item>
+        <item>Doom Patrol</item>
+        <item>Dragon Ball</item>
+        <item>Fairy Tail</item>
+        <item>Family Guy</item>
+        <item>Flash</item>
+        <item>God</item>
+        <item>Gotham</item>
+        <item>Grey Anatomy</item>
+        <item>Hanna</item>
+        <item>Iron Fist</item>
+        <item>Naruto Shippuden</item>
+        <item>NCIS</item>
+        <item>Riverdale</item>
+        <item>Shameless</item>
+        <item>Supergirl</item>
+    </string-array>
+
+    <string-array name="data_deskripsi_tvshow">
+        <item>Playboy miliarder manja, Oliver Queen, hilang dan diduga tewas ketika kapal pesiarnya hilang di laut. Dia kembali lima tahun kemudian seorang pria yang berubah, bertekad untuk membersihkan kota sebagai main hakim sendiri bersenjatakan busur.</item>
+        <item>Petualangan seorang ilmuwan gila idealis dan tim lapangannya dari orang-orang buangan yang sangat kuat.</item>
+        <item>Dragon Ball menceritakan kisah seorang pejuang muda dengan nama Son Goku, seorang bocah lelaki dengan ekor yang memulai upaya untuk menjadi lebih kuat dan belajar dari Bola Naga, ketika, setelah ketujuh orang itu berkumpul, berikan harapan apa pun kepada pilihan.</item>
+        <item>Lucy, calon Penyihir Surgawi, menjadi teman dan sekutu penyihir kuat Natsu, Gray, dan Erza, yang merupakan bagian dari guild penyihir terkenal, Fairy Tail.</item>
+        <item>Di kota Rhode Island yang aneh, sebuah keluarga yang tidak berfungsi berusaha keras untuk menghadapi kehidupan sehari-hari ketika mereka terlempar dari satu skenario gila ke skenario lainnya.</item>
+        <item>Setelah disambar petir, Barry Allen bangun dari komanya untuk menemukan bahwa dia diberi kekuatan kecepatan super, menjadi Flash, melawan kejahatan di Central City</item>
+        <item>Sembilan keluarga bangsawan berjuang untuk menguasai tanah mitos Westeros, sementara musuh kuno kembali setelah tidak aktif selama ribuan tahun.</item>
+        <item>Kisah di balik kebangkitan Detektif James Gordon menjadi terkenal di Gotham City pada tahun-tahun sebelum kedatangan Batman.</item>
+        <item>Drama yang berpusat pada kehidupan pribadi dan profesional dari lima magang bedah dan penyelia mereka. </item>
+        <item>Di bagian yang sama, film thriller konsep tinggi dan drama usia dewasa, HANNA mengikuti perjalanan seorang gadis muda luar biasa yang dibesarkan di hutan, ketika ia menghindari pengejaran tanpa henti dari agen CIA yang tidak ada buku dan mencoba untuk menggali kebenaran di balik siapa yang dia adalah.</item>
+        <item>Seorang pria muda dianugerahi keterampilan seni bela diri yang luar biasa dan kekuatan mistis yang dikenal sebagai Iron Fist.</item>
+        <item>Naruto Uzumaki, adalah seorang ninja yang keras, hiperaktif, remaja yang terus-menerus mencari persetujuan dan pengakuan, serta menjadi Hokage, yang diakui sebagai pemimpin dan terkuat dari semua ninja di desa.</item>
+        <item>Kasus-kasus dari Tim Investigasi Kasus Kriminal Angkatan Laut Washington, D.C. Tim Respons Kasus Utama, dipimpin oleh Agen Khusus Leroy Jethro Gibbs.</item>
+        <item>Sambil menavigasi perairan romantis, sekolah dan keluarga yang bermasalah, Archie dan gengnya terjerat dalam misteri Riverdale yang gelap.</item>
+        <item>Keluarga Chicago yang suka berkelahi, sangat loyal tidak membuat permintaan maaf.</item>
+        <item>Petualangan sepupu Superman dalam karier pahlawan supernya sendiri.</item>
+    </string-array>
+
+    <string-array name="data_tanggal_rilis_tvshow">
+        <item>19 Oktober 2018</item>
+        <item>21 Desember 2018</item>
+        <item>25 April 2018</item>
+        <item>12 November 2018</item>
+        <item>27 Oktober 2018</item>
+        <item>19 Desember 2018 </item>
+        <item>28 November 2018</item>
+        <item>10 Februari 2016</item>
+        <item>9 Januari 2019</item>
+        <item>16 Februari 2019</item>
+        <item>16 Januari 2019</item>
+        <item>24 Oktober 2018</item>
+        <item>22 Desember 2018</item>
+        <item>13 Desember 2018</item>
+        <item>17 Januari 2019</item>
+        <item>20 November 2018</item>
+    </string-array>
+
+    <array name="data_poster_tvshow">
+        <item>@drawable/poster_arrow</item>
+        <item>@drawable/poster_doom_patrol</item>
+        <item>@drawable/poster_dragonball</item>
+        <item>@drawable/poster_fairytail</item>
+        <item>@drawable/poster_family_guy</item>
+        <item>@drawable/poster_flash</item>
+        <item>@drawable/poster_god</item>
+        <item>@drawable/poster_gotham</item>
+        <item>@drawable/poster_grey_anatomy</item>
+        <item>@drawable/poster_hanna</item>
+        <item>@drawable/poster_iron_fist</item>
+        <item>@drawable/poster_naruto_shipudden</item>
+        <item>@drawable/poster_ncis</item>
+        <item>@drawable/poster_riverdale</item>
+        <item>@drawable/poster_shameless</item>
+        <item>@drawable/poster_supergirl</item>
+        <item>@drawable/poster_supernatural</item>
+        <item>@drawable/poster_the_simpson</item>
+        <item>@drawable/poster_the_umbrella</item>
+        <item>@drawable/poster_the_walking_dead</item>
+    </array>
+</resources>
